@@ -2,7 +2,7 @@ import { FaTimes } from 'react-icons/fa'
 
 const Stock = ({ stock, onDelete }) => {
     return (
-        <div className="task">
+        <div className="stock">
             <div className="b">
                 {stock.symbol}
             </div>
